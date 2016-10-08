@@ -487,9 +487,9 @@ static const CGFloat kDetailsLabelFontSize = 12.f;
 			[(UIActivityIndicatorView *)indicator startAnimating];
 			[self addSubview:indicator];
 		}
-#if __IPHONE_OS_VERSION_MIN_REQUIRED >= 50000
+//#if __IPHONE_OS_VERSION_MIN_REQUIRED >= 50000
 		[(UIActivityIndicatorView *)indicator setColor:self.activityIndicatorColor];
-#endif
+//#endif
 	}
 	else if (mode == MBProgressHUDModeDeterminateHorizontalBar) {
 		// Update to bar determinate indicator
